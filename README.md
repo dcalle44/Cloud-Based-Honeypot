@@ -38,11 +38,11 @@ owned by the author. Sensitive indicators have been intentionally excluded.
 ## Architecture Overview
 
 Attacker
-   ↓
+--> 
 Suricata (Network IDS)
-   ↓
+--> 
 Cowrie (SSH Honeypot)
-   ↓
+-->
 Wazuh Agent
-   ↓
+-->
 Wazuh Manager / SIEM
