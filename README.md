@@ -42,7 +42,9 @@ owned by the author. Sensitive indicators have been intentionally excluded.
 ## Detection Pipeline
 
 ### Suricata IDS
-<img width="2342" height="1196" alt="Screenshot 2026-06-01 125035" src="https://github.com/user-attachments/assets/cf03c58b-63f6-4fad-ba68-771e289d8c7d" />
+<img width="1288" height="346" alt="IMG_0788_converted" src="https://github.com/user-attachments/assets/ae377892-61bc-4413-9cc0-0a2c53c7c289" />
+
+
 
 ### Wazuh SIEM
 <img width="3417" height="702" alt="image" src="https://github.com/user-attachments/assets/8171d9b4-19e0-4e91-b5c3-ce02628b373d" />
