@@ -37,5 +37,6 @@ owned by the author. Sensitive indicators have been intentionally excluded.
 
 ## Architecture Overview
 
-<img width="111" height="371" alt="HoneypotFinal drawio" src="https://github.com/user-attachments/assets/f9928a75-58df-4513-a74b-d141abc40cbb" />
+<img width="551" height="361" alt="HoneypotFinal2 drawio" src="https://github.com/user-attachments/assets/b201439a-24db-4531-80a2-05580eb8f0a4" />
+
 
