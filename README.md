@@ -41,9 +41,13 @@ owned by the author. Sensitive indicators have been intentionally excluded.
 
 ## Detection Pipeline
 
+- Technique: TCP SYN Scan
+- Target: Public VPS Infrastructure
+- Detection Source: Suricata IDS
+- Result: Custom detection rules successfully triggered and forwarded into Wazuh SIEM
+
 ### Suricata IDS
 <img width="1288" height="346" alt="IMG_0788_converted" src="https://github.com/user-attachments/assets/ae377892-61bc-4413-9cc0-0a2c53c7c289" />
-
 
 
 ### Wazuh SIEM
@@ -55,4 +59,9 @@ Controlled Nmap reconnaissance scans were performed against the VPS to validate 
 
 ### Certain IP addresses and infrastructure identifiers have been intentionally redacted for operational security purposes.
 
-
+## Results
+    - 200+ attack events over 1 week
+    - 10+ attacker IPs
+    - 7 countries
+    - Wazuh correlation
+    
