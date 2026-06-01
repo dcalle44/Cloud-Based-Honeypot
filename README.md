@@ -11,6 +11,10 @@ deception**, and **SIEM correlation** to replicate a SOC-style monitoring pipeli
 Attack activity is observed across multiple stages including reconnaissance,
 brute-force authentication attempts, command execution, and malware retrieval.
 
+## Architecture Overview
+
+<img width="551" height="361" alt="HoneypotFinal2 drawio" src="https://github.com/user-attachments/assets/b201439a-24db-4531-80a2-05580eb8f0a4" />
+
 All activity was conducted in a **controlled lab environment** using infrastructure
 owned by the author. Sensitive indicators have been intentionally excluded.
 
@@ -35,8 +39,18 @@ owned by the author. Sensitive indicators have been intentionally excluded.
 
 ---
 
-## Architecture Overview
+## Detection Pipeline
 
-<img width="551" height="361" alt="HoneypotFinal2 drawio" src="https://github.com/user-attachments/assets/b201439a-24db-4531-80a2-05580eb8f0a4" />
+### Suricata IDS
+<img width="2342" height="1196" alt="Screenshot 2026-06-01 125035" src="https://github.com/user-attachments/assets/cf03c58b-63f6-4fad-ba68-771e289d8c7d" />
+
+### Wazuh SIEM
+<img width="3417" height="702" alt="image" src="https://github.com/user-attachments/assets/8171d9b4-19e0-4e91-b5c3-ce02628b373d" />
+
+#### Detection Validation
+
+Controlled Nmap reconnaissance scans were performed against the VPS to validate the effectiveness of the detection pipeline. Suricata IDS successfully detected scan activity, triggered custom alert signatures, and forwarded events into Wazuh SIEM. This testing confirmed proper operation of the end-to-end monitoring architecture, including alert generation, log forwarding, and centralized analysis.
+
+The second version is probably better for a README because it's concise, professional, and sounds like something you'd see in a real security engineering project.
 
 
