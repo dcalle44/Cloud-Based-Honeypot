@@ -37,12 +37,5 @@ owned by the author. Sensitive indicators have been intentionally excluded.
 
 ## Architecture Overview
 
-Attacker
---> 
-Suricata (Network IDS)
---> 
-Cowrie (SSH Honeypot)
--->
-Wazuh Agent
--->
-Wazuh Manager / SIEM
+<img width="111" height="371" alt="HoneypotFinal drawio" src="https://github.com/user-attachments/assets/f9928a75-58df-4513-a74b-d141abc40cbb" />
+
