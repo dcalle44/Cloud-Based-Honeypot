@@ -53,6 +53,6 @@ owned by the author. Sensitive indicators have been intentionally excluded.
 
 Controlled Nmap reconnaissance scans were performed against the VPS to validate the effectiveness of the detection pipeline. Suricata IDS successfully detected scan activity, triggered custom alert signatures, and forwarded events into Wazuh SIEM. This testing confirmed proper operation of the end-to-end monitoring architecture, including alert generation, log forwarding, and centralized analysis.
 
-The second version is probably better for a README because it's concise, professional, and sounds like something you'd see in a real security engineering project.
+
 
 
