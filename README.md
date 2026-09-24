@@ -42,7 +42,7 @@ owned by the author. Sensitive indicators have been intentionally excluded.
 ## Detection Pipeline
 
 - Technique: TCP SYN Scan
-- Target: Public VPS Infrastructure
+- Target: VPS Infrastructure
 - Detection Source: Suricata IDS
 - Result: Custom detection rules successfully triggered and forwarded into Wazuh SIEM
 
